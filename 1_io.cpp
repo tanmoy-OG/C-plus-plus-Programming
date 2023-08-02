@@ -1,6 +1,7 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> //! stdc++.h contains all the avilable libraries in c++
 
-using namespace std;
+using namespace std; //! Declaring namespace std allows you to not use std every
+                     //! time in the code
 int main() {
   int x, y;
 

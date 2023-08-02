@@ -22,7 +22,7 @@ int main() {
 
   cout << "Inside main() a = " << a << endl;
   cout << "Inside main() b = " << b
-       << endl; //! values didn't get because the actual values weren't passed
+       << endl; //! Values didn't get because the actual values weren't passed
                 //! to swap(), instead a copy of the values got passed
   cout << endl;
 

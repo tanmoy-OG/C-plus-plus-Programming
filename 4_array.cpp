@@ -10,7 +10,7 @@ int main() {
 
   int arr2[2][3];
   cout << arr2[1][1]
-       << endl; //! prints garbage value cus it's not initialised yet
+       << endl; //! Prints garbage value cus it's not initialised yet
 
   cin >> arr2[0][0] >> arr2[0][1] >> arr2[0][2] >> arr2[1][0] >> arr2[1][1] >>
       arr2[1][2];

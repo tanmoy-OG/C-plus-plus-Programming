@@ -21,7 +21,7 @@ int main() {
   cout << "Inside main() a = " << a << endl;
   cout
       << "Inside main() b = " << b
-      << endl; //! values got modified because the actual memory address of the
+      << endl; //! Values got modified because the actual memory address of the
                //! variables were passed to swap(), and any modifications made
                //! within swap() got reflected on the variables that were passed
   cout << endl;
