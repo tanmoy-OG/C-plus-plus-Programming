@@ -1,15 +1,17 @@
 #include <bits/stdc++.h>
 
 /*
-* A stack is a data structure that follows the LIFO (Last In First Out)
-* process, ie. The last element inserted will be the first to remove
+?? Time complexity of all stack operations. ie. push(), pop(), top() are of O(1)
+*/
+
+/*
+* A stack is a  linear data structure that follows the LIFO (Last In First Out)
+* process, ie. The last element inserted will be the first to remove.
 
 * A good example would be a pile of books, we place a book on the top and
 * we take off books one by one from the top too.
 
-* We can only access the topmost element of a stack
-
-! Each operations performed in a stack takes time complexity O(1).
+* We can only access the topmost element of a stack.
 */
 
 using namespace std;
@@ -17,12 +19,13 @@ int main() {
   stack<int> st;
   st.push(10);
   st.push(20);
-  st.emplace(30); //! push() inserts the value on top of the stack
+  st.emplace(30); //! push() and emplace() inserts the value on top of the stack
 
   cout << "Top of stack = " << st.top();
 
   st.pop(); //! pop() removes the topmost element
   cout << endl << endl << "Top of stack after pop() = " << st.top();
+  //! top() returns the topmost element of the stack
 
   cout << endl
        << endl

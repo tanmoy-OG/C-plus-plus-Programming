@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 
+/*
+ * Double Ended Queue which is also called Deque is a type of queue data
+ * structure in which the insertion and deletion of elements can be
+ * either in front or rear.
+ */
+
 using namespace std;
 int main() {
   deque<int> dq = {3, 4, 5, 6, 7, 8};
@@ -19,19 +25,19 @@ int main() {
   cout << endl << endl << "List after adding 2 and 1 in the front = " << endl;
   for (int it : dq)
     cout << it << ", ";
-  dq.pop_back();
-  dq.pop_front();
+  dq.pop_back();  //! pop_back() delets the last element
+  dq.pop_front(); //! pop_front() deletes the first element
   cout << endl
        << endl
        << "List after popping first and the last element = " << endl;
   for (int it : dq)
     cout << it << ", ";
 
-  cout << endl << endl << "Current front element = " << dq.front();
-  cout << endl << "Current back element = " << dq.back();
-
-  //! All the rest of the functions are the same as Vector & List
-  //* begin(), end(), rbegin(), rend(), clear(), insert(), size(), swap()
+  /*
+   * All the rest of the functions are the same as Vector & List
+   * front(), back(), size(), empty(), begin(), end(), rbegin(), rend(),
+   * cbegin(), cend(), crbegin(), crend(), max_size(), clear(), erase().
+   */
 
   return 0;
 }

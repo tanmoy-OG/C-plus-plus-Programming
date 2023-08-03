@@ -1,5 +1,12 @@
 #include <bits/stdc++.h>
 
+//? Insert and deleting in a list is O(1) on avg and O(n) on worst case
+
+/*
+ * A list in STL is a contiguous container that allows the inserting and
+ * erasing of elements in constant time and iterating in both directions.
+ */
+
 using namespace std;
 int main() {
   list<int> l = {3, 4, 5, 6, 7, 8};
@@ -19,8 +26,12 @@ int main() {
   for (int it : l)
     cout << it << ", ";
 
-  //! All the rest of the functions are the same as Vector
-  //* begin(), end(), rbegin(), rend(), clear(), insert(), size(), swap(), etc
+  /*
+   * All the rest of the functions are the same as Vector
+   * begin(), end(), rbegin(), rend(), cbegin(), cend(), crbegin(),
+   * crend() clear(), insert(), erase(), size(), max_size(), empty(),
+   * swap(), front(), back().
+   */
 
   return 0;
 }

@@ -62,5 +62,10 @@ int main() {
        << "Is vector c empty? = "
        << c.empty(); //! empty() returns 1 if vector is empty otherwise 0
 
+  cout << "\n\nMaximum size of vector c = "
+       << c.max_size(); //! max_size() returns the maximum possible size
+  cout << "\n\nCurrent capacity of vector c = "
+       << c.capacity(); //! capacity() returns the current capacity
+
   return 0;
 }
