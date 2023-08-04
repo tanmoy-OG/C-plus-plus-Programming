@@ -1,5 +1,24 @@
 #include <bits/stdc++.h>
 
+/*
+?? Time complexity of sort() is O(n log n)
+*/
+/*
+  * Sort() is one of the quickest algorithm STL provides us, it is also easy to
+  implement.
+  * It uses a combination of quicosort and mergesort in it's initial
+  implementation.
+
+  * In STL, next_permutation() is a built-in function which as the name suggests
+  returns
+  * the next lexicographically greater permutation of the elements in the
+  container passed
+  * to it as an argument.
+  * It returns true if a next lexicographically greater permutation is possible,
+  otherwise,
+  * it returns false.
+*/
+
 using namespace std;
 
 bool comp(pair<int, int> p1, pair<int, int> p2) {
@@ -68,11 +87,8 @@ int main() {
   do {
     cout << s << endl;
   } while (next_permutation(s.begin(), s.end()));
-  /*
-  ! Returns true if there exists a permutation after the current one
-  ! in dictionary order, otherwise returns false.
-  ! Also modifies the string to the next existing permutation.
-  */
+  //! Returns true if a next permutation is possible, subsequently also changing
+  //! the string, Otherwise returns false
 
   s = "231";
   cout << "\n\nInitial string = " << s << endl << endl << "Permutation:\n";
@@ -82,7 +98,9 @@ int main() {
   //! Returns only 3 permutations because only 3 came next according to
   //! dictionary order
 
-  cout << "\n\nMax element of array = " << *max_element(a, a + 5);
+  cout << "\n\nMin element of array = " << *min_element(a, a + 5);
+  //! Returns the address of the minimum element within the array
+  cout << "\nMax element of array = " << *max_element(a, a + 5);
   //! Returns the address of the maximum element within the array
 
   return 0;

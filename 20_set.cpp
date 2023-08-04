@@ -40,7 +40,7 @@ int main() {
    * All the rest of the functions are the same as other containers
    * begin(), end(), rbegin(), rend(), cbegin(), cend(), crbegin(),
    * crend() clear(), insert(), size(), max_size(), empty(),
-   * swap(), front(), back().
+   * swap().
    */
   return 0;
 }

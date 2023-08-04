@@ -41,7 +41,11 @@ int main() {
   auto it = mp1.lower_bound(2);
   auto it = mp1.upper_bound(2); //! Searches based on key
 
-  //* erase(), swap(), size(), empty() are same as other containers
+  /*
+   * Rest are same as other containers
+   * begin(), end(), rbegin(), rend(), cbegin(), cend(), crbegin(), crend(),
+   * clear(), erase(), swap(), size(), empty(), max_size()
+   */
 
   return 0;
 }
