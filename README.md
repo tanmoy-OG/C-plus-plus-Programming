@@ -13,4 +13,5 @@ installed and enabeled for optimum readability.
 
 ## Optional Video Tutorials
 
-c++ Basics: https://youtu.be/EAR7De6Goz4 c++ SL: https://youtu.be/RRVYpIET_RU
+c++ Basics: https://youtu.be/EAR7De6Goz4 
+c++ SL: https://youtu.be/RRVYpIET_RU
